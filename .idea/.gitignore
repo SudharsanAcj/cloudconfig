@@ -1,0 +1,75 @@
+# Maven build files
+target/
+*.war
+*.ear
+
+# Gradle build files
+.gradle/
+build/
+
+# Logs
+*.log
+logs/
+spring.log
+
+# Temporary files
+*.class
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+*.iml
+*.ipr
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nbm/
+
+# VS Code
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+# Exclude local application properties (e.g., credentials)
+application-*.properties
+application-*.yml
+
+# Exclude database files
+*.h2.db
+*.mv.db
+*.pg.db
+
+# Exclude test results
+test-output/
+
+# Exclude dependency libraries
+lib/
+
+# Environment-specific files
+.env
+*.env
+
+# Exclude credentials and security keys
+*.pem
